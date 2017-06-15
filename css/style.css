@@ -1,0 +1,55 @@
+
+		body{
+			background-image: url(../images/bg.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		*{
+			margin-left: 0 ;
+			padding-left: 0;
+		}
+		#title{
+			width: 560px;
+			height: 320px;
+			margin: 130px  auto  0 auto;
+		}
+		.flashLight,.flashLight2{
+			width: 858px;
+			height: 858px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			margin: 105px auto 0 auto;
+		}
+		.flashLight{
+			background-image: url(../images/flash1.png);
+		}
+		.flashLight2{
+			background-image: url(../images/flash2.png);
+		}
+		
+		
+		#btn .cjBtn,#btn .cjBtnown,.flashLight td,.flashLight .active{
+			width: 180px;
+			height: 180px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			
+		}
+		.flashLight  table{
+			padding-left: 62px;
+			padding-top: 68px;
+		}
+		#btn.cjBtn{
+		background-image: url(../images/buttonup.png);
+		}
+		#btn.cjBtnDown{
+			background-image: url(../images/buttondown.png);
+		}
+		#luck .active{
+			background-image: url(../images/active.png);
+		}
+		.flashLight td{
+			text-align: center;
+			background-image: url(../images/probj.png);
+		}
+		
